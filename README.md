@@ -1,2 +1,3 @@
-# exercises
-exercises
+# HTML exercises
+
+https://dvankevich.github.io/exercises/
