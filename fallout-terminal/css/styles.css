@@ -325,7 +325,8 @@ textarea {
 }
 
 textarea {
-    margin-bottom: 20px overflow: auto;
+    margin-bottom: 20px;
+    overflow: auto;
     resize: none;
 }
 
