@@ -5,3 +5,13 @@ ol {
   margin: 0;
   padding: 0;
 }
+
+/* прибираємо підкреслення для посилань */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
