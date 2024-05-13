@@ -15,3 +15,7 @@ a {
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+p {
+  text-indent: 0%;
+}
