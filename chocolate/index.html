@@ -3,8 +3,7 @@
 
 <head>
     <!-- 
-        Спочатку нормалізатор 
-      код взято з сайту https://cdnjs.com/libraries/modern-normalize
+    Спочатку нормалізатор. Код взято з сайту https://cdnjs.com/libraries/modern-normalize
       -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
@@ -14,8 +13,8 @@
     <!--  Підключення шрифтів-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,12 +36,12 @@
 <body>
     <header>
         <nav>
-            <a href="">SIMPLY CHOCOLATE
+            <a class="logo" href=""><span class="logo-italic" >SIMPLY</span> CHOCOLATE
                 <img src="./images/chocolate-icon.svg" alt="logo icon"></a>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">How it’s made?</a></li>
-                <li><a href="">Chocolate is loved</a></li>
+                <li class="nav-links-item"><a href="">Home</a></li>
+                <li class="nav-links-item"><a href="">How it’s made?</a></li>
+                <li class="nav-links-item"><a href="">Chocolate is loved</a></li>
             </ul>
         </nav>
         <ul>
@@ -64,16 +63,16 @@
 
     <main>
         <!-- start page -->
-        <section>
-            <h1>Treat yourself or a loved one to
+        <section class="s-one">
+            <h1 class="s-one-heading">Treat yourself or a loved one to
                 our finest ingredients for a moment
                 of pure delight!</h1>
 
-            <button type="button">Buy now</button>
-            <a href="">How it’s made</a>
+            <button class="s-one-buy-button" type="button">Buy now</button>
+            <a class="s-one-how-link" href="">How it’s made</a>
             <!--  <button type="button">How it’s made</button> -->
             <!-- <button type="button">scroll down</button> -->
-            <a href="">scroll down</a>
+            <a class="s-one-scroll-link" href="">scroll down</a>
         </section>
 
         <!-- benefits -->

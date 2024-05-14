@@ -12,10 +12,64 @@ a {
   color: inherit;
 }
 
+p {
+  text-indent: 0%;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
 
-p {
-  text-indent: 0%;
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.logo-italic {
+  font-style: italic;
+}
+
+.nav-links-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.s-one {
+  background: rgba(17, 17, 17, 0.6);
+}
+
+.s-one-heading {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.s-one-buy-button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background: #fd9222;
+}
+
+.s-one-how-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.s-one-scroll-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #fff;
 }
