@@ -90,3 +90,52 @@ body {
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
 }
+
+.ingredients {
+}
+
+.ingredients-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.span-taste {
+  color: #fd9222;
+}
+
+.ingredients-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+}
+
+.ingredients-list {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.ingredients-list-item-orange {
+  color: #fff;
+  background: #fd9222;
+}
+
+.ingredients-list-item-white {
+  color: #111;
+  background: #fff;
+}
+
+.ingredients-list-item-black {
+  color: #fff;
+  background: #1e1823;
+}
