@@ -66,10 +66,27 @@ body {
 }
 
 .s-one-scroll-link {
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.03em;
   color: #fff;
+}
+
+.benefits {
+  background: #1e1823;
+}
+
+.benefits-heading {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
 }
